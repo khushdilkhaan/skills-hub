@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fbf3ff;
+}
+.container{
+    position: absolute;
+    max-width: 900px;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.myRightCtn{
+    position: relative;
+    background-image: linear-gradient(45deg, #f034ff, #9122cc);
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color: rgb(201, 43, 43);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myLefctn{
+    position: relative;
+    height: 100%;
+    background: #fff;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+    border-radius: 25px;
+}
+.myLefctn header{
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.row{
+    height: 100%;
+}
+.mycard{
+    position: relative;
+    height: 100%;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.myRightCtn header{
+    color: #fff;
+    font-size: 44px;
+}
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.myLefctn .myInput{
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.myLefctn .myInput:focus{
+    outline:none;
+}
+.MyForm{
+    position: relative;
+    margin-top: 50px;
+}
+.myLefctn .button-1{
+    background-image: linear-gradient(45deg,  #f034ff, #9b00e8);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 41px -11px  rgba(0, 0, 0, 0.7);
+}
+.myLefctn .button-1:hover{
+    background-image: linear-gradient(45deg,  #c85bff, #b726ff);
+}
+.myLefctn .button-1:focus{
+    outline: none;
+}
+.myLefctn .fas{
+    position: relative;
+    left: 36px;
+    color: #bb36fd;
+}
+.button-out{
+    background: transparent;
+    padding: 10px;
+    width: 120px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.button-out:hover{
+    border: 2px solid #eecbff;
+}
+.button-out:focus{
+    outline: none;
+}
